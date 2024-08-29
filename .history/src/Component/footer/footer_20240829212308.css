@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  flex: 2;
+}
+
+.solution {
+}
+.about {
+}
+.recourse {
+}

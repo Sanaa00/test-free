@@ -1,0 +1,15 @@
+.con {
+  margin-bottom: 5px;
+  width: 400px;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: small;
+}
+.des {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: small;
+}

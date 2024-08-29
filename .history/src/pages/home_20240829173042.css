@@ -1,0 +1,10 @@
+.s1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s1-title {
+  font-size: xx-large;
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  flex: 2;
+}
+.solution {
+  flex: 1;
+}
+.solution {
+  flex: 1;
+}
+.solution {
+  flex: 1;
+}

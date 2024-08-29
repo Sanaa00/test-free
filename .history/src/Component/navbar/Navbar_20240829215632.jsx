@@ -1,0 +1,58 @@
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
+import './navbar.css';
+function Navbar() {
+  const links = [
+    {
+      id: 1,
+      name: 'Solution',
+      to: '/solution',
+    },
+    {
+      id: 2,
+      name: 'Pricing',
+      to: '/pricing',
+    },
+    {
+      id: 3,
+      name: 'Help Center',
+      to: '/help',
+    },
+  ];
+
+  return (
+    <div className="navbar">
+      <div className="logo-con">
+        {' '}
+        <img alt="logo" src={logo} className="logo" />
+      </div>
+
+      <div className="nav">
+        <div className="links">
+          {links.map(link => {
+            return (
+              <div key={link.id} className="link-con">
+                <Link className="pages" to={link.to}>
+                  {link.name}
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+        <button className="btn">Signin</button>
+        <button className="btn active-btn">Get Started</button>
+        {/* <div className="btn-con">
+          {buutons.map(btn => {
+            return (
+              <button className="btn" key={btn.id}>
+                {btn.name}
+              </button>
+            );
+          })}
+        </div> */}
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;

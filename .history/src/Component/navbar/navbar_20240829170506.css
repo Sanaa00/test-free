@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+}
+.nav {
+  display: flex;
+}
+.links {
+  display: flex;
+  /* margin-left: 50px; */
+}
+.link-con {
+  display: flex;
+  margin-left: 30px;
+  text-decoration: none;
+
+  /* text-underline-offset: none; */
+}
+.pages {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,26 @@
+.text-con {
+  margin-bottom: 20px;
+
+  width: 300px;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  /* font-size: small; */
+}
+.des {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 8px;
+  font-size: small;
+  color: gray;
+}
+.s2-con-title {
+  display: flex;
+  margin-left: 5px;
+}
+
+.icon {
+  color: #dd122d;
+}

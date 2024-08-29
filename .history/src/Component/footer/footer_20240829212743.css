@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  /* display: flex; */
+  flex: 2;
+  margin-right: 100px;
+  /* width: 300px;
+   */
+}
+
+.solution {
+  /* display: flex; */
+  flex: 1;
+}
+.about {
+  justify-items: center;
+  /* display: flex; */
+  flex: 1;
+}
+.recourse {
+  justify-items: end;
+  /* display: flex; */
+  flex: 1;
+}

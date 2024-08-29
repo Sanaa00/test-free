@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  flex: 2;
+}
+.solution {
+  flex: 1;
+}
+.about {
+  flex: 1;
+}
+.recourses {
+  flex: 1;
+}
