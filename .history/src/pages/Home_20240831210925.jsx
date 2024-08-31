@@ -142,7 +142,7 @@ function Home() {
       </section>
 
       <section className="s3">
-        <img alt="hhhhhhhhhh image" src={section3} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s3} className="s3-img" />
         <span>
           <p className="s5-p">Secure Transactions</p>
           <Texts text={sectionThree} />
@@ -163,12 +163,12 @@ function Home() {
             {' '}
             <Texts text={sectionFour} />
           </span>{' '}
-          <img alt="hhhhhhhhhh image" src={section4} className="s3-img" />
+          <img alt="hhhhhhhhhh image" src={s4} className="s3-img" />
         </div>
       </section>
 
       <section className="s3">
-        <img alt="hhhhhhhhhh image" src={section5} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s3} className="s3-img" />
         <span>
           <p className="s5-p">Accept Cryptocurrency Payments</p>
           <Texts text={sectionFive} />
@@ -184,11 +184,11 @@ function Home() {
           </p>
           <Texts text={sectionSix} />
         </span>{' '}
-        <img alt="hhhhhhhhhh image" src={section6} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s4} className="s3-img" />
       </section>
 
       <section className="s3">
-        <img alt="hhhhhhhhhh image" src={section7} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s3} className="s3-img" />
         <span>
           <p className="s5-p">Easy Integration</p>
           <p className="s6-des">

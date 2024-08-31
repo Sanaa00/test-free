@@ -1,11 +1,7 @@
 import Texts from '../Component/Text/Texts';
 import './home.css';
-import section2 from '../assets/section2.png';
-import section3 from '../assets/section3.png';
-import section4 from '../assets/section4.png';
-import section5 from '../assets/section5.png';
-import section6 from '../assets/section6.png';
-import section7 from '../assets/section7.png';
+import s3 from '../assets/s3.png';
+import s4 from '../assets/s4.png';
 function Home() {
   const sectionTwo = [
     {
@@ -138,11 +134,11 @@ function Home() {
           <Texts text={sectionTwo} />
         </span>
 
-        <img alt="hhhhhhhhhh image" src={section2} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s4} className="s3-img" />
       </section>
 
       <section className="s3">
-        <img alt="hhhhhhhhhh image" src={section3} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s3} className="s3-img" />
         <span>
           <p className="s5-p">Secure Transactions</p>
           <Texts text={sectionThree} />
@@ -163,12 +159,12 @@ function Home() {
             {' '}
             <Texts text={sectionFour} />
           </span>{' '}
-          <img alt="hhhhhhhhhh image" src={section4} className="s3-img" />
+          <img alt="hhhhhhhhhh image" src={s4} className="s3-img" />
         </div>
       </section>
 
       <section className="s3">
-        <img alt="hhhhhhhhhh image" src={section5} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s3} className="s3-img" />
         <span>
           <p className="s5-p">Accept Cryptocurrency Payments</p>
           <Texts text={sectionFive} />
@@ -184,11 +180,11 @@ function Home() {
           </p>
           <Texts text={sectionSix} />
         </span>{' '}
-        <img alt="hhhhhhhhhh image" src={section6} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s4} className="s3-img" />
       </section>
 
       <section className="s3">
-        <img alt="hhhhhhhhhh image" src={section7} className="s3-img" />
+        <img alt="hhhhhhhhhh image" src={s3} className="s3-img" />
         <span>
           <p className="s5-p">Easy Integration</p>
           <p className="s6-des">
