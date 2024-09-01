@@ -1,11 +1,11 @@
 import Texts from '../Component/Text/Texts';
 import './home.css';
-import section2 from '../assets/section2.svg';
-import section3 from '../assets/section3.svg';
-import section4 from '../assets/section4.svg';
-import section5 from '../assets/section5.svg';
-import section6 from '../assets/section6.svg';
-import section7 from '../assets/section7.svg';
+import section2 from '../assets/section2.png';
+import section3 from '../assets/section3.png';
+import section4 from '../assets/section4.png';
+import section5 from '../assets/section5.png';
+import section6 from '../assets/section6.png';
+import section7 from '../assets/section7.png';
 function Home() {
   const sectionTwo = [
     {
@@ -138,11 +138,11 @@ function Home() {
           <Texts text={sectionTwo} />
         </span>
 
-        <img alt="section2" src={section2} className="s3-img se2-img" />
+        <img alt="hhhhhhhhhh image" src={section2} className="s3-img" />
       </section>
 
       <section className="s3">
-        <img alt="section3" src={section3} className="s3-img se3-img" />
+        <img alt="hhhhhhhhhh image" src={section3} className="s3-img" />
         <span>
           <p className="s5-p">Secure Transactions</p>
           <Texts text={sectionThree} />
@@ -163,12 +163,12 @@ function Home() {
             {' '}
             <Texts text={sectionFour} />
           </span>{' '}
-          <img alt="section4" src={section4} className="s3-img se4-img" />
+          <img alt="hhhhhhhhhh image" src={section4} className="s3-img" />
         </div>
       </section>
 
       <section className="s3">
-        <img alt="section5" src={section5} className="s3-img se5-img" />
+        <img alt="hhhhhhhhhh image" src={section5} className="s3-img" />
         <span>
           <p className="s5-p">Accept Cryptocurrency Payments</p>
           <Texts text={sectionFive} />
@@ -184,13 +184,13 @@ function Home() {
           </p>
           <Texts text={sectionSix} />
         </span>{' '}
-        <img alt="section6" src={section6} className="s3-img se6-img" />
+        <img alt="hhhhhhhhhh image" src={section6} className="s3-img" />
       </section>
 
       <section className="s3">
-        <img alt="section7" src={section7} className="s3-img se7-img" />
+        <img alt="hhhhhhhhhh image" src={section7} className="s3-img" />
         <span>
-          <p className="s6-title">Easy Integration</p>
+          <p className="s5-p">Easy Integration</p>
           <p className="s6-des">
             Integrate payment processing seamlessly with your existing
             e-commerce setup.

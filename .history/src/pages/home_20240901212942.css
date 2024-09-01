@@ -20,19 +20,18 @@
 }
 .se3-img {
   height: 385px;
+  /* width: ; */
 }
 .se4-img {
   height: 359px;
 }
 .se5-img {
   height: 338px;
-  width: 504px;
 }
 .se6-img {
   height: 431px;
 }
 .se7-img {
-  width: 504px;
   height: 334px;
 }
 .s1-p {
@@ -104,6 +103,7 @@
 .s3-img,
 .s4-img {
   flex: 1;
+  /* width: 100%; */
   height: 400px;
   object-fit: contain;
   max-width: 50%;

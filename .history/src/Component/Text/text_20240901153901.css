@@ -2,9 +2,12 @@
   width: 100%;
 }
 .text-con {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   width: 100%;
+  /* margin-left: 20px; */
+  /* width: 300px; */
+  /* margin-top: 50px; */
 }
 .title {
   font-weight: bold;
@@ -15,25 +18,27 @@
   text-align: start;
   width: 100%;
   font-size: 20px;
+  /* font-size: small; */
 }
 .des {
   margin-bottom: 0px;
   padding-bottom: 0px;
   margin-top: 8px;
   font-size: 17px;
-  color: #4e4e4e;
+  color: gray;
 }
-
+/* width: 300px; */
 .s2-con-title {
   display: flex;
   width: 370px;
   flex-direction: column;
+  /* margin-left: 10px; */
+  /* justify-content: ; */
+  /* align-items: center; */
   margin-left: 18px;
 }
 
 .icon {
   color: #dd122d;
-  width: 20px;
-  height: fit-content;
-  margin: 0px;
+  /* margin-right: 20px; */
 }

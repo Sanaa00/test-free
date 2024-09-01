@@ -4,8 +4,8 @@ import section2 from '../assets/section2.svg';
 import section3 from '../assets/section3.svg';
 import section4 from '../assets/section4.svg';
 import section5 from '../assets/section5.svg';
-import section6 from '../assets/section6.svg';
-import section7 from '../assets/section7.svg';
+import section6 from '../assets/section6.png';
+import section7 from '../assets/section7.png';
 function Home() {
   const sectionTwo = [
     {

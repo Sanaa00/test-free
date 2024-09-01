@@ -21,7 +21,7 @@
   padding-bottom: 0px;
   margin-top: 8px;
   font-size: 17px;
-  color: #4e4e4e;
+  color: gray;
 }
 
 .s2-con-title {
@@ -33,7 +33,5 @@
 
 .icon {
   color: #dd122d;
-  width: 20px;
-  height: fit-content;
-  margin: 0px;
+  /* margin-right: 20px; */
 }
