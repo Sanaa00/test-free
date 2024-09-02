@@ -1,0 +1,33 @@
+.custom-margin-bottom {
+  margin-bottom: 30px;
+}
+
+/* .text-size {
+  width: 100%;
+}
+.text-con {
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+}*/
+.title {
+  font-size: 20px;
+}
+
+.custom-width {
+  max-width: 500px;
+}
+.des {
+  margin-top: 8px;
+  font-size: 17px;
+  color: #4e4e4e;
+}
+.custom-margin-left {
+  margin-left: 30px;
+}
+.icon {
+  color: #dd122d;
+  width: 16px;
+  /* height: auto; */
+  margin-top: 4px;
+}

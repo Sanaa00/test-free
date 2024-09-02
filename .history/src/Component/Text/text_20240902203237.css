@@ -1,0 +1,33 @@
+.custom-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.custom-width {
+  max-width: 500px;
+}
+.des {
+  /* margin: 0px;
+  padding: 0px; */
+  margin-top: 8px;
+  font-size: 17px;
+  color: #4e4e4e;
+}
+.custom-margin-left {
+  margin-left: 30px;
+}
+.icon {
+  color: #dd122d;
+  /* align-items: start; */
+  /* display: flex; */
+  /* justify-content: start; */
+  /* align-content: start; */
+  width: 16px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 4px;
+}

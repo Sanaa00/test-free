@@ -1,0 +1,178 @@
+.home {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.custom-font-size-p {
+  font-size: 17px;
+}
+
+.s3-img,
+.s4-img {
+  flex: 1;
+  object-fit: contain;
+  width: 100%;
+  /* max-width: 50%; */
+  /* padding: 20px; */
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.se5-img {
+  height: 338px;
+  width: 100%;
+  object-fit: contain;
+}
+.se6-img {
+  height: 431px;
+  width: 100%;
+  object-fit: contain;
+}
+.se7-img {
+  width: 100%;
+  object-fit: contain;
+  height: 334px;
+}
+.se2-img {
+  height: 354px;
+  width: 100%;
+  object-fit: contain;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-se {
+  margin-top: 100px;
+}
+.f-32 {
+  font-size: 32px;
+}
+.f-17 {
+  font-size: 17px;
+}
+.se4-img {
+  height: 359px;
+}
+
+.s5-p {
+  font-size: 32px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+@media (min-width: 992px) {
+  .home {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* .custom-max-width {
+    max-width: 570px;
+  } */
+  .s3-img,
+  .s4-img {
+    flex: 1;
+    object-fit: contain;
+    max-width: 50%;
+    padding: 20px;
+  }
+  .se5-img {
+    height: auto;
+    width: 504px;
+  }
+
+  .se6-img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+  .se7-img {
+    width: 100%;
+    height: auto;
+  }
+  .se2-img {
+    width: 100%;
+    height: 100%;
+  }
+  .custom-gap {
+    gap: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .home {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .custom-max-width {
+    max-width: 570px;
+  }
+  .s3-img,
+  .s4-img {
+    flex: 1;
+    object-fit: contain;
+    width: 50%;
+    padding: 20px;
+  }
+  .se5-img {
+    height: 338px;
+    object-fit: contain;
+    width: 50%;
+  }
+
+  .se6-img {
+    height: 431px;
+    width: 50%;
+    object-fit: contain;
+  }
+  .se7-img {
+    width: 50%;
+    object-fit: contain;
+    height: 334px;
+  }
+  .se2-img {
+    object-fit: contain;
+    height: 354px;
+    width: 50%;
+  }
+  .custom-gap {
+    gap: 50px;
+  }
+}
+@media (min-width: 1400px) {
+  .home {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .custom-max-width {
+    max-width: 570px;
+  }
+  .s3-img,
+  .s4-img {
+    flex: 1;
+    object-fit: contain;
+    width: 549px;
+  }
+  .se5-img {
+    height: 338px;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .se6-img {
+    height: 431px;
+    width: 697px;
+    object-fit: contain;
+  }
+  .se7-img {
+    width: 50%;
+    object-fit: contain;
+    height: 334px;
+  }
+  .se2-img {
+    object-fit: contain;
+    height: 354px;
+    width: 685px;
+  }
+  .custom-gap {
+    gap: 100px;
+  }
+}
